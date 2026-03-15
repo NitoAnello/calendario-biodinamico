@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Calendario Biodinámico",
+    "slug": "calendario-biodinamico",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "calendariobio",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Permite acceso a ubicación para personalizar cálculos astronómicos."
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
